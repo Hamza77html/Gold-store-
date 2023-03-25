@@ -1,6 +1,9 @@
 * {
     font-family: 'Tajawal';
 }
+body {
+    direction: rtl;
+}
     
     
     
