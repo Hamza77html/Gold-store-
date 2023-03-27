@@ -14,6 +14,13 @@ body {
     align-items: center;
     text-align: center;
 }
+.store {
+    display: flex;
+}
+.store img {
+    width: 4%;
+    height: 4%;
+}
     
           
 
