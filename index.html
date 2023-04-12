@@ -50,6 +50,31 @@
                                                                                                                                                                           	    </ul>
                                                                                                                                                                                 	  </div>
                                                                                                                                                                                       	</nav>
+																																														<!-- Include the Bootstrap CSS library -->
+																																													<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+																																													
+																																													<!-- Add a container with the moon icon and some text -->
+																																													<div class="container my-5">
+																																													  
+																																													
+																																														  <div class="text-center">
+																																														      <i class="bi bi-moon moon-icon"></i>
+																																															
+																																																</div>
+																																																
+																																																<!-- Include the Bootstrap JS library -->
+																																																<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+																																																
+																																																<!-- Add a script to toggle the dark mode -->
+																																																<script>
+																																																  const moonIcon = document.querySelector('.moon-icon');
+																																																    const body = document.querySelector('body');
+																																																	  
+																																																	    moonIcon.addEventListener('click', () => {
+																																																		    body.classList.toggle('dark-mode');
+																																																			  });
+																																																			  </script>
+																																															
 
                                                                                                                                                                                         	<!-- Header Section -->
                                                                                                                                                                                             	<div class="jumbotron">
